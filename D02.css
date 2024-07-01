@@ -1,0 +1,213 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    background-color: #191919;
+}
+/* header start */
+header{
+    width: 100%;
+    height: 59px;
+    padding: 41px 100px;
+}
+.navbar .menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    box-shadow: box-shadow: 1px 10px 5px 0px rgba(79,41,41,0.75);
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(79,41,41,0.75);
+    -moz-box-shadow: 1px 10px 5px 0px rgba(79,41,41,0.75);
+}
+.navbar .menu .menu1 {
+    display: flex;
+    list-style: none;
+}
+.navbar .menu .menu1 ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.navbar .menu .menu1 .home {
+   gap: 60px;
+   padding-right: 50px;
+   color: #666666;
+}
+.navbar .menu .menu1 .icon{
+    gap: 20px;
+    padding-right: 50px;
+    align-items: center;
+ }
+.navbar .menu .menu1 ul>li>p {
+    font-size: 20px;
+    font-weight:500;
+}  
+.navbar .menu .menu1 .icon li>ion-icon  {
+    width: 32px;
+    height: 32px;
+    color: #666666;
+    border-radius: 50px;
+}
+.navbar .menu .logo1 img{
+    width: 97px;
+    height: 59px;
+}
+.Section_Hero{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 220px;
+    padding-bottom: 200px;
+}
+
+.Section_Hero h1{
+   font-size: 50px;
+   color: #d9d9d9;
+}
+.Section_Hero .name .nameh1{
+    background: linear-gradient(to right, #09edef, #d42b45);
+    background-clip: text;
+    color: transparent;
+}
+.Section_Hero .avatar img{
+width: 350px;
+border-radius: 50%;
+}
+/* main */
+main{
+    width: 100%;
+    padding: 100px;
+    padding-top: 700px;
+}
+.content{
+   text-align: center;
+}
+.content h1{
+    color: #cccccc;
+}
+.content p{
+    color: #7b7b7b;
+}
+.logo-tech ul{
+   display: grid;
+   grid-template-columns: auto auto auto auto auto auto;
+   list-style: none;
+   gap: 50px;
+   padding-top: 70px;
+}
+ .logo-tech ul>li>img{
+    width: 120px;
+    height: 120px;
+}
+.projects{width: 100%;
+}
+.projects1 {
+    width: 100%;
+    
+}
+.projects .projects1 .projects-ricovy{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.projects .projects1 .projects-ricovy h1{
+    color: #cccccc;
+}
+.projects .projects1 .projects-ricovy p{
+    color: #7b7b7b;
+}
+.projects .projects1 .projects-content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.projects .projects1 .projects-content .content-grid{
+    background-color: #363636;
+    border-radius: 20px;
+}
+.projects .projects1 .projects-content{
+    width: 375px;
+}
+.projects .projects1 .projects-content .content-grid img{
+    width: 375px;
+    height: 260px;
+    border-radius: 20px;
+   
+}
+.projects .projects1 .projects-content  .content-grid1{
+    padding-left: 40px;
+    
+}
+.projects .projects1 .projects-content .content-grid1 h2{
+    font-size:28px ;
+    color: #ababab;
+}
+.projects .projects1 .projects-content .content-grid1 p{
+    font-size: 18px;
+    color: #7f7f7f;
+}
+/* footer */
+footer{
+    width: 100%;
+    padding: 100px;
+}
+.navbar1 .menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+.navbar1 .menu .menu1 {
+    display: flex;
+    list-style: none;
+   
+   
+}
+.navbar1 .menu .menu1 ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+   
+}
+.navbar1 .menu .menu1 .home {
+   gap: 60px;
+   padding-right: 50px;
+   color: #666666;
+}
+.navbar1 .menu .menu1 .icon{
+    gap: 20px;
+    padding-right: 50px;
+    align-items: center;
+ }
+.navbar1 .menu .menu1 ul>li>p {
+    font-size: 20px;
+    font-weight:500;
+   
+}.navbar1 .menu .menu1 .icon li>ion-icon  {
+    width: 32px;
+    height: 32px;
+  
+    color: #666666;
+    border-radius: 50px;
+    
+}
+.navbar1 .menu .logo1 img{
+    width: 97px;
+    height: 59px;}
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.navbar2 .home-footer{
+display: flex;
+gap: 50px;
+list-style: none;
+}
+.navbar2 p{
+    color: #6e6e6e;
+}
+  
